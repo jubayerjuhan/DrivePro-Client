@@ -1,0 +1,54 @@
+@import "../../main.scss";
+
+.faq__component {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  .chevron__icon {
+    svg {
+      font-size: 25px;
+    }
+  }
+}
+
+.faq__header {
+  padding: 15px;
+  gap: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.faq__header.active {
+  background-color: var(--theme-color);
+}
+
+.faq__title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  > .icon {
+    svg {
+      font-size: 40px;
+    }
+  }
+
+  .title {
+    @include bigDescription;
+    color: var(--black);
+  }
+}
+
+.faq__body {
+  display: none;
+  padding: 15px;
+  transition: all 300ms ease;
+  @include descriptionFont;
+}
+
+.faq__body.active {
+  display: block;
+}

@@ -1,0 +1,92 @@
+@import "../../main.scss";
+
+.profile__page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .profileImage {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    img {
+      width: 90%;
+      height: 90%;
+      border-radius: 50%;
+    }
+  }
+
+  .profile__inputs {
+    margin-top: 30px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    > .title {
+      @include smallTitle;
+      text-align: center;
+      color: var(--text-sec);
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.edit__button-profile {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 50px;
+  cursor: pointer;
+  right: 50px;
+  background-color: var(--theme-color);
+  svg {
+    font-size: 25px;
+  }
+}
+
+.profile__available-indicator {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.image__edit-btn {
+  height: 30px;
+  width: 30px;
+  background-color: var(--theme-color);
+  border-radius: 50%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0px;
+  bottom: 0px;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .profile__page > .profile__inputs {
+    width: 90%;
+  }
+
+  .edit__button-profile {
+    height: 50px;
+    width: 50px;
+    right: 20px;
+    bottom: 20px;
+    svg {
+      font-size: 25px;
+    }
+  }
+}

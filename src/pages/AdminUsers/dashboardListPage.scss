@@ -1,0 +1,7 @@
+@import "../../main.scss";
+.dashbaord__content-wrapper {
+  .title {
+    @include bigDescription;
+    margin-bottom: 20px;
+  }
+}

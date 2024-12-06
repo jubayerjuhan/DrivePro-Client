@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  min-width: 800px;
+}
+
+td,
+th {
+  width: 100%;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: var(--theme-color);
+  border: none;
+}

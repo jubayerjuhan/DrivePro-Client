@@ -1,0 +1,37 @@
+@import '../../main.scss';
+
+.gift__card-main{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+  gap: 50px;
+}
+
+.gift__card-image{
+  width: 100%;
+  img{
+    width:100%;
+  }
+}
+
+.gift__card-info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  .title{
+    @include smallTitle;
+    color: var(--text-sec);
+  }
+}
+
+
+@media (max-width: 768px) {
+ .gift__card-main{
+  display: inline-block;
+  width: 100%;
+ } 
+ .gift__card-image{
+  display: none;
+ }
+}

@@ -1,0 +1,19 @@
+.apply__instructor-agreement {
+  .signature {
+    margin-top: 20px;
+  }
+
+  .instructor__agreement-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 30px 0px;
+  }
+
+  .checkbox__agreement {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,10 @@
+.fullpage__spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.418);
+  position: fixed;
+  z-index: 100;
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Earnings Summary",
+  "description": "View your earnings from each booking below. \n This table displays the details of your earnings, including the booking date, learner name, lesson type, duration, and invoice. \n Use this information to track your income for each lesson",
+  "tableWarningMessage": "No Earnings Available For You",
+  "tableFields": [
+    "Id",
+    "Date",
+    "Learner Name",
+    "Duration",
+    "Amount",
+    "Paid",
+    "Invoice"
+  ]
+}

@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Lexend", sans-serif !important;
+}
+
+.sectionPadding {
+  padding: 5vw 8vw;
+  padding-bottom: 3vw;
+}
+@media (max-width: 768px) {
+  .sectionPadding {
+    padding: 6vw 4vw;
+  }
+}
+.dashboard__padding {
+  padding: 3vw;
+  padding-bottom: 3vw;
+}
+@media (max-width: 768px) {
+  .dashboard__padding {
+    padding: 2vw 2vw;
+  }
+}
+
+:root {
+  --theme-color: #faa41a;
+  --input-glow: #fe90005d;
+  --text: #121113;
+  --text-sec: #666;
+  --light-gray: #f6f6f6;
+  --black: #121113;
+  --white: white;
+  --font-family: "Lexend", sans-serif !important;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.bookbutton {
+  margin-top: 60px;
+}
+
+/* bootstrap focus glow for input */
+/* textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="select"]:focus,
+input[type="color"]:focus,
+input[type="select"]:focus,
+select:focus,
+.uneditable-input:focus {
+  border-color: var(--theme-color) !important;
+  box-shadow: 0 0 0 0.2rem var(--input-glow) !important;
+
+  outline: 0 none !important;
+} */
+
+.input__element:focus {
+  border-color: var(--theme-color) !important;
+  box-shadow: 0 0 0 0.2rem var(--input-glow) !important;
+  outline: 0 none !important;
+}
+
+.MuiTextField-root > input[type="text"]:focus {
+  border-color: none;
+}
+
+.input__element {
+  height: 45px;
+}
+
+.input__element.login {
+  height: 55px;
+}
+
+.input__errorMessage {
+  color: red;
+  margin-top: 8px;
+  font-size: 14px;
+}
+/*  input fields design*/
+
+.input__fields-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fieldLabel {
+  margin-bottom: 10px;
+}
+.fieldLabel > span {
+  color: red;
+}

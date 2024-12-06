@@ -1,0 +1,16 @@
+@import "../../main.scss";
+
+.instructor__review {
+  > .title {
+    @include bigDescription;
+    font-size: 17px;
+  }
+
+  > .rating {
+    padding: 5px 0px;
+  }
+
+  > .description {
+    @include descriptionFont;
+  }
+}

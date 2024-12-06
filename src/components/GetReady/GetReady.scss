@@ -1,0 +1,62 @@
+@import "../../main.scss";
+
+.getReady__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  > .title {
+    @include titleFont;
+    margin-bottom: 15px;
+  }
+  > .description {
+    @include bigDescription;
+  }
+}
+
+.getReady__options {
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 50px;
+}
+
+.getReady__option {
+  display: flex;
+  gap: 20px;
+
+  > .icon {
+    svg {
+      font-size: 40px;
+      color: var(--theme-color);
+    }
+  }
+  .information {
+    > .title {
+      @include smallTitle;
+      line-height: 1;
+      margin-bottom: 5px;
+    }
+
+    > .description {
+      @include descriptionFont;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .getReady__options {
+    padding: 30px 0;
+  }
+
+  .getReady__section {
+    > .title {
+      width: 100%;
+      text-align: left;
+    }
+  }
+}
+@media (max-width: 600px) {
+  .getReady__options {
+    grid-template-columns: 1fr;
+  }
+}

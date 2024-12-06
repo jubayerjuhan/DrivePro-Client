@@ -1,0 +1,38 @@
+@import "../../main.scss";
+
+.test__package-banner-wrapper {
+  > .title {
+    text-align: center;
+    margin-bottom: 20px;
+    @include bigDescription;
+    font-weight: bold;
+  }
+}
+
+.test__package-banner {
+  display: flex;
+  gap: 25px;
+
+  .image {
+    img {
+      height: 100px;
+      width: 100px;
+    }
+  }
+
+  .information {
+    ul {
+      // list-style: none;
+
+      > li {
+        @include descriptionFont;
+      }
+    }
+
+    > .title {
+      @include bigDescription;
+      color: var(--theme-color);
+      font-weight: bold;
+    }
+  }
+}

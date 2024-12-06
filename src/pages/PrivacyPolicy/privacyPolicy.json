@@ -1,0 +1,262 @@
+[
+  {
+    "title": "In our privacy statement, we describe how we may use and disclose information, including personal information, that we may occasionally acquire",
+    "subtitles": [
+      "We are dedicated to making sure that your information is handled professionally and safely. We are devoted to abiding by privacy regulations that concern us",
+      "The Australian Privacy Principles (APPs), which are protected by the Privacy Act, must be followed."
+    ],
+    "list": [],
+    "links": []
+  },
+  {
+    "title": "You acknowledge and accept our and the Company's by using this website and purchasing anything from us :",
+    "links": [
+      {
+        "label": "Privacy Policy",
+        "link": "/privacy-policy"
+      },
+      {
+        "label": "Terms and Conditions (Learner)",
+        "link": "/terms/learner"
+      },
+      {
+        "label": "Terms and Conditions (Instructor)",
+        "link": "/terms/instructor"
+      }
+    ],
+    "list": []
+  },
+  {
+    "title": "Getting in touch with us ",
+    "subtitles": [
+      "You can reach out to us whenever you want to know more about this policy.",
+      "If you have any issues about your account, your personal information, or cookies, please get in touch with admin@myinstructor.com.bd"
+    ],
+    "list": []
+  },
+  {
+    "bigTitle": "Information Gathering",
+    "title": "We gather the personal data supplied to us by learner drivers, including your : ",
+    "list": [
+      "Name",
+      "Birth Date",
+      "Pickup Details",
+      "Billing Details (data is stored through Stripe rather than the My Instructor server)",
+      "Email",
+      "Purchased history details",
+      "Any further details you give us when using our website",
+      "Serial Number (customer)",
+      "Phone Number"
+    ]
+  },
+  {
+    "bigTitle": "For the purpose of giving driving lessons, 'My Instructor' may give these details to driving instructors"
+  },
+  {
+    "title": "We assemble driving instructors' personal data, including yours : ",
+    "list": [
+      "Name",
+      "Birth Date",
+      "Gender Identification",
+      "Billing Details (data is stored through Stripe rather than the My Instructor server)",
+      "Email",
+      "Phone Number",
+      "Licences ( all three of them, driving licences,instructor licences & children check) WWCC Number & Vehicle Details"
+    ]
+  },
+  {
+    "bigTitle": "For the purpose of taking driving lessons, 'My Instructor' may give learner drivers information such as, but not limited to, a driving instructor's name, email address, and phone number"
+  },
+  {
+    "title": "Several methods are used to collect this data, including :",
+    "list": [
+      "The procedure of opening an account",
+      "Froms",
+      "Booking Order ",
+      "Your encounters with our customer service representatives",
+      "Comments",
+      "Account details",
+      "Priorities",
+      "Ratings and any other comparable information that My Instructor may occasionally determine"
+    ]
+  },
+  {
+    "title": "We might also get information from unobvious means, such as the usage of 'cookies' or from other sources."
+  },
+  {
+    "title": "We might also obtain data from offline as well as online sources, such as demographic or interest-based data, internet surfing patterns, or other types of information"
+  },
+  {
+    "title": "If you give us information on a third party, you guarantee that you have that person's permission before giving it to us"
+  },
+  {
+    "title": "Payment information is not collected by us, and we are not in charge of keeping it secure either.A third-party firm is used to handle and store payment information. - You can reach this business at admin@stripe.com.bd. Before providing any personal information, we advise you to read and familiarise yourself with the privacy policies of any third-party businesses"
+  },
+  {
+    "title": "How and why we gather this data :",
+    "subtitles": [
+      "Your personal information will be used to deliver our products to you, as well as to send you offers, information, and our products. Additionally, we use this data to enhance and improve our services and marketing initiatives",
+      "You are entitled to access and review your personal data,You have the option of requesting that we delete or correct any information we have on you, and if you want to change, access, or remove information about you, or complain about a breach of the APP, please contact us at admin@myinstructor.com.bd"
+    ]
+  },
+  {
+    "title": "Payment information is not collected by us, and we are not in charge of keeping it secure either.A third-party firm is used to handle and store payment information. - You can reach this business at admin@stripe.com.bd. Before providing any personal information, we advise you to read and familiarise yourself with the privacy policies of any third-party businesses"
+  },
+  {
+    "title": "In order to learn more about your browser and operating system, we also automatically acquire your computer's internet protocol (IP) address when you view our website. We might also compile information about : ",
+    "list": [
+      "Device identification or IDs",
+      "Connection details",
+      "Software",
+      "Page visits details",
+      "Advertisement details ",
+      "URL’s & IP data details"
+    ]
+  },
+  {
+    "title": "In order to learn more about your browser and operating system, we also automatically acquire your computer's internet protocol (IP) address when you view our website. We might also compile information about : "
+  },
+  {
+    "title": "Your information might be used by us to react to inquiries and complaints."
+  },
+  {
+    "title": "Utilising your personal information, we may also use it to investigate any potential violation of our Terms, such as fraud or criminal activity."
+  },
+  {
+    "title": "Email advertising, if any.",
+    "subtitles": ["With your consent, we might email you about:"],
+    "list": ["Our web page", "Fresh goods", "Verious Updates"]
+  },
+  {
+    "title": "If we need your personal details for a secondary reason, like marketing, we will either formally request your consent or give you a chance to decline; if you reconsider your decision after you prefer in, you could abandon your consent for us to notify you going forward for the ongoing collection, use, or disclosure of your information by emailing us at admin@myinstructor.com.bd"
+  },
+  {
+    "title": "Other than as specified in this Privacy Policy, your personal information will not be shared, sold, rented, or divulged."
+  },
+  {
+    "bigTitle": "Declaration",
+    "subtitles": [
+      "If allowed by law, we may also collect, maintain, use, and disclose personal information to enforce the terms of our agreement with you, to prevent violations of our terms of service, and to protect the rights, property, and the public from harm.",
+      "Your information may be shared with 'My Instructor' independent connectors, employees, or other third parties, including for the following purposes:"
+    ],
+    "list": [
+      "Customer service",
+      "Enhanced services",
+      "Development",
+      "Processing",
+      "holding or granting access to our products, including by giving this information to driving instructors so they can teach learner drivers how to drive (or likewise), and in particular by doing so by sharing information about : Names Calls to numbers addresses for email addresses for learner drivers to pick up and all other relevant details needed to deliver driving sessions."
+    ]
+  },
+  {
+    "title": "We might share learner driver feedback with driving instructors, or inversely.We may provide you with personal information that we have gathered about you in connection with the sale and promotion of our products."
+  },
+  {
+    "title": "To provide services to you, we work with other businesses, contractors, or representatives, including :",
+    "list": [
+      "Delivery",
+      "Marketing",
+      "Communications",
+      "legal assistance",
+      "collection of debt",
+      "administrative support",
+      "customer support",
+      "Providers of Information technology",
+      "Using a credit card",
+      "More Payment Options for Transactions"
+    ]
+  },
+  {
+    "bigTitle": "Data Retention :",
+    "title": "Your information is stored through the databases and data storage on www.myinstructor.com.bd, and Stripe maintains any payment-related data."
+  },
+  {
+    "title": "Payment",
+    "subtitles": [
+      "Your credit card information is kept on file by www.stripe.com.bd if you decide to use a direct payment channel to finish your transaction.",
+      "The Payment Card Industry Data Security Standard encrypts it (PCI-DSS).",
+      "Your purchase transaction information is erased once the transaction has been completed. Your purchase transaction data is only saved for the time required to execute your purchase transaction.",
+      "The PCI Security Standards Council, a collaboration of companies including Visa, MasterCard, American Express, and Discover, oversees the PCI-DSS standards, which are adhered to by all direct payment gateways."
+    ]
+  },
+  {
+    "bigTitle": "Third Party Ministration",
+    "title": "Services",
+    "subtitles": [
+      "In principle, the third-party providers we work with will only gather, use, and disclose your information as much as is required for them to carry out the tasks we've hired them to do.",
+      "Nevertheless, some third-party service providers, such payment gateways and other payment transaction processors, have their own privacy policies with regard to the data we must give them for your purchase-related activities",
+      "To further understand how these providers will treat your personal information, we advise you to read their privacy policies for each of these services.",
+      "On overseas servers, certain providers might have offices or facilities outside of Australia. If you choose to move forward with a transaction involving a third-party service provider, your information may be subject to the laws of the jurisdiction(s) in which that service provider or its facilities are located. For example, if you are located in one country  and your transaction is processed by a payment gateway located in other country, your personal information used in completing that transaction may be subject to disclosure under Unfair Competition Law.",
+      "You are no longer subject to this Privacy Policy or the Terms of Service of our website after you leave it or are forwarded to a website or application operated by a third party."
+    ]
+  },
+  {
+    "bigTitle": "Websites",
+    "subtitles": [
+      "We recommend you to read other websites' privacy statements and terms of service before concluding any transaction because when you click on links on our website, they may take you away from our site. We are not responsible for the privacy policies of other websites."
+    ]
+  },
+  {
+    "bigTitle": "Websites",
+    "subtitles": [
+      "We recommend you to read other websites' privacy statements and terms of service before concluding any transaction because when you click on links on our website, they may take you away from our site. We are not responsible for the privacy policies of other websites."
+    ]
+  },
+  {
+    "title": "Security details :",
+    "subtitles": [
+      "We adopt industry best practices and reasonable security measures to protect personal information to ensure that it is not :"
+    ],
+    "list": ["erroneously lost", "Misused", "Accessed", "Diclosed", " Modified", "Destroyed"]
+  },
+  {
+    "title": "Your credit card details are protected using secure socket layer technology (SSL) and saved with an AES-256 encryption if you provide us with that information. Although there is no 100% secure way of electronic transmission or storage, we adhere to all PCI-DSS criteria and adopt other generally recognized industry standards"
+  },
+  {
+    "title": "We will make every effort to protect the security of your personal information. However, we cannot guarantee that outside parties won't compromise or tamper with our systems. You acknowledge that you do so at your own risk while giving us your personal information"
+  },
+  {
+    "title": "Cookies Details : ",
+    "subtitles": [
+      "According to the Electronic Communications Act of 1999 (Cth), My Instructor utilizes cookies",
+      "A cookie is a little text file that is saved on your computer and contains data that enables a website to recognize and monitor its visitors",
+      "Cookies are harmless to your computer, include only text and cannot spread viruses; they also take up almost no space on your hard drive",
+      "Cookies come in two varieties: temporary files saved on your computer called 'Session Cookies' and permanent files",
+      "You may change the settings on your web browser to accept or reject a website's use of cookies in order to opt-out of cookies. The website's functionality could be impacted by this; and Cookies and other technologies, such as Facebook pixels, may be used by some third parties. We advise reading their cookie and other technology use policies as well as their privacy policies"
+    ]
+  },
+  {
+    "title": "Marketing Details",
+    "subtitles": ["We have put the following advertising tools into practice:"],
+    "list": [
+      "Remarketing",
+      "Google's interface reporting on network impressions",
+      "Integration of DoubleClick Campaign Manager",
+      "demographic and interest reporting for Google Analytics."
+    ]
+  },
+  {
+    "subtitles": [
+      "You can disable Google Analytics for display advertising and tailor Google display network ads by using the Ads Settings in Google.We reserve the right to run online advertisements using retargeting and Google Analytics.",
+      "You might see our ads on websites across the Internet from third-party vendors, like Google. 'My Instructor' and these third-party vendors, like Google, use first-party cookies, like the Google Analytics cookie, and 3rd cookies, like the DoubleClick cookie, in conjunction to inform, optimise, and serve ads based on past website visitors. To report on how ad impressions, other uses of ad services, and interactions with these ad impressions and ad services are related to visits to this site, 'My Instructor' and third-party vendors, including Google, use first-party cookies (like the Google Analytics cookies) and third-party cookies (like the DoubleClick cookie). Additionally, 'My Instructor' collects information from Google's Interest-based advertising or 3rd-party audience data (such as age, gender, and interests)"
+    ]
+  },
+  {
+    "subtitles": [
+      "You can disable Google Analytics for display advertising and tailor Google display network ads by using the Ads Settings in Google.We reserve the right to run online advertisements using retargeting and Google Analytics.",
+      "You might see our ads on websites across the Internet from third-party vendors, like Google. 'My Instructor' and these third-party vendors, like Google, use first-party cookies, like the Google Analytics cookie, and 3rd cookies, like the DoubleClick cookie, in conjunction to inform, optimise, and serve ads based on past website visitors. To report on how ad impressions, other uses of ad services, and interactions with these ad impressions and ad services are related to visits to this site, 'My Instructor' and third-party vendors, including Google, use first-party cookies (like the Google Analytics cookies) and third-party cookies (like the DoubleClick cookie). Additionally, 'My Instructor' collects information from Google's Interest-based advertising or 3rd-party audience data (such as age, gender, and interests)"
+    ]
+  },
+  {
+    "title": "Copyright to The Privacy Policy ",
+    "subtitles": [
+      "Please check it periodically as we reserve the right to change this privacy policy at any moment.",
+      "Changes and clarifications will be effective right away once they are posted online",
+      "We will let you know here if we make any significant changes to this policy so you are informed of: what details we gather, how we employ it, how and when we use and/or disclose it, if at all.",
+      "Your information might be given to the new owners of our website if our website is bought out by or combined with another business so that we can continue to sell you items"
+    ]
+  },
+  {
+    "bigTitle": "Contact details and questions ",
+    "title": "Contact us at admin@myinstructor.com.bd if you would like to: access, rectify, revise, or remove any personal information we hold on you; make a complaint; or just want more information."
+  }
+]

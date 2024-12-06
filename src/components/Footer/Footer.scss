@@ -1,0 +1,58 @@
+@import "../../main.scss";
+@mixin descriptionLink {
+  @include descriptionFont;
+  font-size: 14px;
+}
+
+.footer__component {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  background-color: var(--light-gray);
+}
+
+.footer__title {
+  @include bigDescription;
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.footer__intro {
+  .description {
+    @include descriptionLink();
+  }
+}
+
+.footer__link {
+  @include descriptionLink();
+}
+
+.footer__instructor-city {
+  // margin-top: 25px;
+}
+
+.footer__instructor-cities {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer__resource-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer__drive-links {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@media (max-width: 600px) {
+  .footer__component {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

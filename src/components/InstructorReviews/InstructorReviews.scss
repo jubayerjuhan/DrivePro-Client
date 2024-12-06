@@ -1,0 +1,40 @@
+@import "../../main.scss";
+
+.instructor__reviews {
+  margin-top: 40px;
+  > .title {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    > .text {
+      @include bigDescription;
+    }
+    > .icon {
+      svg {
+        font-size: 20px;
+        color: var(--theme-color);
+      }
+    }
+  }
+
+  > .description {
+    @include descriptionFont;
+    text-decoration: underline;
+    // color: var(--theme-color);
+  }
+}
+
+.show__all-btn {
+  cursor: pointer;
+  margin-top: 15px;
+  @include descriptionFont;
+  text-decoration: underline;
+  color: var(--theme-color);
+}
+
+.instructor__all-reviews {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}

@@ -1,0 +1,84 @@
+@import "../../main.scss";
+
+.home__giftcard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.home__giftcard-information {
+  > .title {
+    @include titleFont;
+  }
+  > .description {
+    @include descriptionFont;
+  }
+}
+
+.home__giftcard-options {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 60px;
+  padding: 1rem 0px;
+}
+
+.home__giftcard-media {
+  > img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.giftcard__option {
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  > .icon {
+    svg {
+      font-size: 50px;
+      margin-bottom: 20px;
+      color: var(--theme-color);
+    }
+  }
+
+  > .title {
+    @include smallTitle;
+    text-align: center;
+  }
+
+  > .description {
+    @include descriptionFont;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .home__giftcard-options {
+    gap: 30px;
+    padding: unset;
+  }
+}
+@media (max-width: 768px) {
+  .home__giftcard {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .home__giftcard-media {
+    height: 400px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home__giftcard-options {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}

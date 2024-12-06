@@ -1,0 +1,13 @@
+.steering_loader {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+
+  .loading_gif {
+    height: 50px;
+    object-fit: contain;
+  }
+}

@@ -1,0 +1,35 @@
+@import "../../main.scss";
+.booking__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.booking__header {
+  display: flex;
+  margin-bottom: 40px;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+
+  > .icon {
+    svg {
+      font-size: 25px;
+    }
+  }
+  p {
+    @include bigDescription;
+  }
+}
+
+@media (max-width: 768px) {
+  .booking-main {
+    grid-template-columns: 1fr;
+  }
+}

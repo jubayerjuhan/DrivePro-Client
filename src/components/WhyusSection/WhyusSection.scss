@@ -1,0 +1,55 @@
+@import "../../main.scss";
+
+.whyus__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  > .title {
+    @include titleFont;
+    margin-bottom: 15px;
+  }
+
+  > .description {
+    @include bigDescription;
+  }
+}
+
+.whyus__reasons {
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  // display: flex;
+  // flex-wrap: wrap;
+  gap: 20px;
+}
+
+.whyus__reason {
+  display: flex;
+  // align-items: center;
+  gap: 10px;
+
+  .icon {
+    svg {
+      font-size: 25px;
+      color: var(--theme-color);
+    }
+  }
+
+  > .title {
+    @include descriptionFont;
+  }
+}
+
+@media (max-width: 768px) {
+  .whyus__reasons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .whyus__reasons {
+    padding: 20px 0px;
+    padding-top: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

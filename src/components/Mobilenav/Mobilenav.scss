@@ -1,0 +1,19 @@
+.mobileNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.mobileNav__image {
+  height: 50px;
+  width: 120px;
+
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+.mobilenav__hamburger-icon {
+  cursor: pointer;
+}

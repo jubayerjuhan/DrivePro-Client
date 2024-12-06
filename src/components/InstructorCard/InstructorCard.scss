@@ -1,0 +1,75 @@
+@import "../../main.scss";
+
+.instructor__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.instructor__image {
+  height: 110px;
+  width: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  img {
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+  }
+}
+
+.instructor__info {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  > .name {
+    @include bigDescription;
+    text-align: center;
+    color: var(--black);
+  }
+
+  > .language {
+    @include descriptionFont;
+    font-size: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+  }
+  .availability {
+    cursor: pointer;
+    margin-top: 5px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    svg {
+      font-size: 20px;
+      color: var(--theme-color);
+    }
+    .title {
+      margin-top: 2px;
+
+      @include descriptionFont;
+      color: var(--theme-color);
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px 0px;
+    }
+  }
+
+  .buttons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,26 @@
+.financial__reports {
+  padding: 20px;
+  .header {
+    margin-bottom: 20px;
+  }
+  .description {
+    margin-bottom: 15px;
+  }
+}
+
+.totalEarning {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.date__selector {
+  display: flex;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .date__selector {
+    gap: 10px;
+  }
+}

@@ -1,0 +1,26 @@
+@import "../../main.scss";
+
+.notfound__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  > .title {
+    margin-top: 20px;
+    @include smallTitle;
+    color: var(--text-sec);
+  }
+
+  img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .notfound__main {
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+@import "../../main.scss";
+
+.booking__selector {
+  padding: 25px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  .lesson__duration {
+    > .title {
+      @include descriptionFont;
+      margin-bottom: 10px;
+    }
+  }
+  .lessonDuration__inputs {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .booking__date-time {
+    margin-top: 15px;
+
+    .available__date {
+      .title {
+        @include descriptionFont;
+        margin-top: 10px;
+      }
+    }
+  }
+  .submitBtn {
+    margin-top: 20px;
+  }
+}

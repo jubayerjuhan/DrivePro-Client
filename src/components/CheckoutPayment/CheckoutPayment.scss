@@ -1,0 +1,15 @@
+@import "../../main.scss";
+
+.checkout__payment {
+  > .title {
+    @include bigDescription;
+  }
+
+  > .payment__form {
+    padding: 20px 0px;
+  }
+
+  .pay__button {
+    margin-top: 20px;
+  }
+}

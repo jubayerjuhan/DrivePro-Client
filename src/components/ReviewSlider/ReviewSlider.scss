@@ -1,0 +1,36 @@
+@import "../../main.scss";
+
+.review__slider {
+  > .title {
+    @include titleFont;
+    margin-bottom: 15px;
+  }
+  > .description {
+    @include bigDescription;
+    margin-bottom: 50px;
+  }
+  .slider__main {
+    padding-bottom: 60px;
+  }
+}
+.swiper-pagination-bullet-active {
+  background: var(--theme-color) !important;
+}
+
+.review__slider-bookbutton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet {
+  height: 12px;
+  margin: 0px 6px !important;
+  width: 12px;
+}
+
+@media (max-width: 768px) {
+  .review__slider > .description {
+    margin-bottom: 30px;
+  }
+}

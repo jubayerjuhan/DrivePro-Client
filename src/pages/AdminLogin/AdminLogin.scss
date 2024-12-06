@@ -1,0 +1,21 @@
+.login__component {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.login__graphics {
+  img {
+    width: 100%;
+  }
+}
+
+.title{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.login__form-admin{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

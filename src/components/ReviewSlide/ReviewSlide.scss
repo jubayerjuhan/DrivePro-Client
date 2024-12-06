@@ -1,0 +1,53 @@
+@import "../../main.scss";
+
+.review__slide {
+  position: relative;
+  background-color: var(--light-gray);
+  height: 340px;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .title {
+    @include bigDescription;
+    margin-bottom: 10px;
+  }
+
+  .review__slide-rating {
+    margin-bottom: 10px;
+  }
+  .review__slide-top {
+    @include descriptionFont;
+    font-size: 14px;
+  }
+  .review__user {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    .avater {
+      height: 50px;
+      width: 50px;
+      img {
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .name {
+      @include bigDescription;
+      font-size: 16px;
+      line-height: 1.3;
+      z-index: 1;
+      width: 65%;
+    }
+  }
+
+  .quote__icon {
+    font-size: 40px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: var(--theme-color);
+  }
+}

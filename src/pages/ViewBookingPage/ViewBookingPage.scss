@@ -1,0 +1,61 @@
+@import "../../main.scss";
+
+.view__booking-main {
+  margin-top: 20px;
+}
+
+.booking__accept {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+
+  > .title {
+    @include bigDescription;
+  }
+  > .buttons {
+    display: flex;
+    gap: 15px;
+  }
+}
+
+.view__booking-page {
+  position: absolute;
+  width: 85%;
+  > .title {
+    @include smallTitle;
+    margin-bottom: 10px;
+    color: var(--theme-color);
+    text-align: center;
+  }
+  .backButton {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+}
+
+.dash-booking__informations {
+  margin-bottom: 20px;
+  .title {
+    @include smallTitle;
+    color: var(--text-sec);
+    margin-bottom: 10px;
+  }
+
+  .info__field {
+    margin-bottom: 5px;
+    @include descriptionFont;
+  }
+}
+
+@media (max-width: 768px) {
+  .view__booking-page {
+    width: 100%;
+  }
+}

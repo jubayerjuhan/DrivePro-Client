@@ -1,0 +1,57 @@
+@import "../../main.scss";
+
+.booking__info-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.booking-pickup__details {
+  > .title {
+    @include smallTitle;
+    color: var(--text-sec);
+    margin-bottom: 20px;
+  }
+
+  .fields {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+  }
+}
+
+.booking__cart {
+  .bookingTime {
+    padding: 15px;
+    border: 1px solid rgba(128, 128, 128, 0.521);
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+    border-radius: 15px;
+    svg {
+      margin-top: 5px;
+      font-size: 25px;
+    }
+    .booking__info {
+      width: 100%;
+      .title {
+        @include descriptionFont;
+      }
+
+      .booking__time {
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .booking__info-main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}

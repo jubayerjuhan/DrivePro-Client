@@ -1,0 +1,73 @@
+@import "../../main.scss";
+
+.instructor__profile-info {
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 10px;
+  .name {
+    @include smallTitle;
+    font-size: 25px;
+  }
+  .emoji__info {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+
+    .em-info {
+      cursor: pointer;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      .title {
+        @include bigDescription;
+        font-size: 16px;
+      }
+      svg {
+        color: var(--theme-color);
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.instructor__qualities-wrapper {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.instructor__quality-opt {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+
+  .icon {
+    svg {
+      font-size: 20px;
+    }
+  }
+
+  .titleWrapper {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    .language {
+      font-size: 12px;
+      padding: 3px 5px;
+      background-color: var(--theme-color);
+      border-radius: 5px;
+    }
+  }
+  .title {
+    @include descriptionFont;
+  }
+}
+
+@media (max-width: 768px) {
+  .instructor__profile-info .emoji__info {
+    flex-wrap: wrap;
+    gap: 10px 20px;
+  }
+}

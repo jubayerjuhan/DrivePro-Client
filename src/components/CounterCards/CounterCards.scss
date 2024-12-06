@@ -1,0 +1,42 @@
+@import "../../main.scss";
+
+.counter__card {
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+  min-width: 200px;
+  padding: 10px 15px;
+  justify-content: space-between;
+  background-color: white;
+  .title {
+    @include bigDescription;
+    margin-bottom: 6px;
+  }
+  .description {
+    @include smallTitle;
+    font-size: 30px;
+    // color: var(--theme-color);
+  }
+
+  .icon {
+    svg {
+      font-size: 50px;
+      color: var(--theme-color);
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .counter__card {
+    padding: 20px;
+  }
+
+  .counter__card .title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .counter__card .description {
+    font-size: 30px;
+  }
+}

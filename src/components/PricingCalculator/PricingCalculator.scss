@@ -1,0 +1,170 @@
+@import "../../main.scss";
+
+.pricing__calculator {
+  background: var(--light-gray);
+  padding: 15px;
+  // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(0, 0, 0, 0.13) 0px 10px 20px;
+  height: fit-content;
+}
+
+.lesson__pricing {
+  > .title {
+    @include bigDescription;
+    color: black;
+    font-weight: 600;
+  }
+
+  > .small__description {
+    @include descriptionFont;
+    font-size: 13px;
+    text-decoration: underline;
+    color: var(--theme-color);
+  }
+
+  > .tip__suggestion {
+    @include descriptionFont;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  border-bottom: 1px dashed var(--black);
+  padding-bottom: 10px;
+}
+
+.lessons__list {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.lesson__info {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  padding: 3px;
+
+  > .lesson__duration,
+  .lesson__price {
+    @include bigDescription;
+    color: var(--black);
+  }
+}
+
+.discount__tooltip {
+  // line-height: 1;
+  font-size: 10px;
+  padding: 3px 5px;
+  background-color: var(--theme-color);
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.lesson__calculator {
+  padding: 10px 0;
+  border-bottom: 1px dashed var(--black);
+
+  > .title {
+    @include bigDescription;
+    color: black;
+    font-weight: 600;
+  }
+}
+
+.calculator__select {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  select {
+    outline: none;
+    width: 70px;
+    height: 40px;
+  }
+}
+
+.total__lesson-price {
+  margin-top: 5px;
+  @include bigDescription;
+  color: var(--theme-color);
+  font-weight: 700;
+  display: flex;
+  gap: 20px;
+}
+
+.test__package {
+  padding: 10px 0;
+  > .title {
+    @include bigDescription;
+    color: black;
+    font-weight: 600;
+  }
+
+  > .price {
+    @include bigDescription;
+    color: var(--theme-color);
+    font-weight: 700;
+  }
+
+  > .feature__list {
+    padding-left: 18px;
+    .feature {
+      @include descriptionFont;
+      font-size: 13px;
+    }
+  }
+}
+
+.pricing__calculator-buttons {
+  margin-top: 20px;
+}
+
+@media (max-width: 1024px) {
+  .lesson__info > .lesson__duration,
+  .lesson__info .lesson__price {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .lesson__info > .lesson__duration,
+  .lesson__info .lesson__price {
+    font-size: 13px;
+  }
+  .lesson__info {
+    gap: 15px;
+  }
+  .pricing__calculator {
+    padding: 10px;
+  }
+
+  .lesson__info > .saving__tips {
+    padding: 2px 4px;
+  }
+}
+@media (max-width: 600px) {
+  .lesson__info > .lesson__duration,
+  .lesson__info .lesson__price {
+    font-size: 20px;
+  }
+  .lesson__info {
+    gap: 15px;
+  }
+  .pricing__calculator {
+    padding: 10px;
+  }
+
+  .lesson__info > .saving__tips {
+    padding: 2px 5px;
+  }
+
+  .lesson__pricing > .title {
+    font-size: 20px;
+  }
+  .lesson__calculator > .title {
+    font-size: 20px;
+  }
+  .test__package > .title {
+    font-size: 20px;
+  }
+}

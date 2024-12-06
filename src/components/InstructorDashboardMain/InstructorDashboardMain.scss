@@ -1,0 +1,8 @@
+@import "../../main.scss";
+
+.dashboard__counters-instructor {
+  > .title {
+    @include smallTitle;
+    color: var(--text-sec);
+  }
+}

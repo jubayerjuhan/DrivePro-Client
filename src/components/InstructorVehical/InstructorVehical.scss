@@ -1,0 +1,53 @@
+@import "../../main.scss";
+
+.instructor__vehical {
+  margin: 40px 0px;
+  > .title {
+    @include smallTitle;
+  }
+
+  .vehical__info {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+
+    .image {
+      width: 120px;
+      height: 80px;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .information {
+      display: flex;
+      flex-direction: column;
+      // gap: 5px;
+      .name,
+      .transmission,
+      .numberPlate {
+        @include descriptionFont;
+      }
+      .transmission {
+        font-size: 14px !important;
+      }
+
+      .numberPlate {
+        margin-top: 3px;
+        width: fit-content;
+        background-color: var(--theme-color);
+        padding: 2px 5px;
+        font-size: 10px;
+        color: black;
+        border-radius: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .instructor__vehical {
+    margin-bottom: 0px;
+  }
+}

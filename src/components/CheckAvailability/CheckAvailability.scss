@@ -1,0 +1,92 @@
+@import "../../main.scss";
+
+.chv__modal {
+  height: 90vh;
+  width: 90vw;
+  background-color: white;
+  outline: none;
+  padding: 40px;
+  position: relative;
+  overflow: scroll;
+
+  .times__icon {
+    position: absolute;
+    right: 40px;
+    color: var(--theme-color);
+  }
+}
+
+.chv__chart {
+  overflow: scroll;
+  // overflow: scroll;
+  display: flex;
+  .chv__chart-column {
+    min-width: 150px;
+
+    border: 1px solid gray;
+    .title {
+      text-align: center;
+      border-bottom: 1px solid gray;
+    }
+
+    .hour {
+      border-bottom: 1px solid gray;
+      height: 30px;
+      padding-left: 5px;
+      background-color: var(--text-sec);
+    }
+    .hourrow {
+      background-color: transparent;
+      position: relative;
+    }
+
+    .normal__hour {
+      position: relative;
+    }
+
+    .booked__hour {
+      background-color: var(--theme-color);
+    }
+  }
+}
+
+.chv__modal-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+  .title {
+    @include smallTitle;
+    color: var(--text-sec);
+    text-align: center;
+  }
+  .indicator {
+    margin-top: 10px;
+    display: flex;
+    gap: 30px;
+
+    .indicator__child {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .available {
+        height: 15px;
+        width: 15px;
+        background-color: var(--text-sec);
+      }
+      .booked {
+        height: 15px;
+        width: 15px;
+        background-color: var(--theme-color);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .chv__chart .chv__chart-column {
+    min-width: 80px;
+  }
+}

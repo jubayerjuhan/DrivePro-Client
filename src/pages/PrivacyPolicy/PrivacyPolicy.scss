@@ -1,0 +1,39 @@
+@import "../../main.scss";
+
+.privacy__policy-main {
+  > .title {
+    @include smallTitle;
+    margin-bottom: 50px;
+    text-align: center;
+    color: var(--text-sec);
+  }
+}
+.privacy__policy-content {
+  margin-bottom: 25px;
+  > .title {
+    margin-bottom: 5px;
+    @include bigDescription;
+  }
+  > .bigTitle {
+    margin-bottom: 5px;
+    @include smallTitle;
+    color: var(--text-sec);
+  }
+  > .subtitle {
+    margin-bottom: 5px;
+    @include descriptionFont;
+  }
+  .list__wrapper {
+    padding: 0px 15px;
+  }
+  > .list {
+    @include descriptionFont;
+  }
+
+  .list {
+    .list__item {
+      color: var(--text-sec);
+      @include descriptionFont;
+    }
+  }
+}

@@ -1,0 +1,55 @@
+@import "react-big-calendar/lib/sass/styles";
+@import "react-big-calendar/lib/addons/dragAndDrop/styles"; // if using DnD
+
+.booking_calendar {
+  min-height: 100vh;
+  padding: 20px;
+
+  .calendar__wrapper {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow: scroll;
+
+    .calendar__header {
+      // text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .rbc-toolbar-label {
+      margin: 10px 0;
+    }
+  }
+  .calendar {
+    height: 80vh;
+  }
+}
+
+.rbc-event-content {
+  font-size: 12px;
+}
+
+.rbc-event {
+  background-color: var(--theme-color);
+  color: black;
+}
+.rbc-event.rbc-selected {
+  background-color: var(--theme-color);
+  color: black;
+}
+.rbc-month-row {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (max-width: 768px) {
+  .booking_calendar {
+    .calendar__wrapper {
+      .calendar {
+        height: 80vh;
+        width: 700px;
+      }
+    }
+  }
+}

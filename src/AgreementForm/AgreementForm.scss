@@ -1,0 +1,21 @@
+.agreement__form {
+  .title {
+    margin-bottom: 10px;
+  }
+  .subtitle {
+    margin-bottom: 20px;
+  }
+
+  .content {
+    line-height: 2;
+
+    span {
+      color: var(--theme-color);
+    }
+  }
+
+  .footer {
+    margin-top: 25px;
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,65 @@
+@import "../../main.scss";
+
+.add__cart-page {
+  > .title {
+    text-align: center;
+    @include smallTitle;
+    font-size: 30px;
+    color: var(--text-sec);
+  }
+}
+.add__cart-main {
+  display: flex;
+  flex-direction: column;
+
+  .cart__wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+}
+
+.cart__instructor-wrapper {
+  > .title {
+    @include bigDescription;
+  }
+}
+
+.cart__instructor {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+
+  .image {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+    img {
+      border-radius: 50%;
+      height: 90%;
+      width: 90%;
+    }
+  }
+
+  .information {
+    > .title {
+      @include descriptionFont;
+    }
+    .state {
+      p {
+        font-size: 14px;
+        @include descriptionFont;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .add__cart-main .cart__wrapper {
+    grid-template-columns: 1fr;
+  }
+}

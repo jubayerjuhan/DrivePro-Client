@@ -1,0 +1,26 @@
+@import "../../main.scss";
+
+.advantage__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  > .title {
+    @include titleFont;
+    margin-bottom: 15px;
+  }
+}
+
+.advantage__list {
+  padding: 30px 0px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .advantage__list {
+    width: 100%;
+  }
+}

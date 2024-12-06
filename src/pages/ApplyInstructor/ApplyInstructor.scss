@@ -1,0 +1,49 @@
+@import "../../main.scss";
+
+.apply__instructor-main {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 50px;
+
+  .apply__image {
+    width: 100%;
+    position: relative;
+    img {
+      position: fixed;
+      width: 40%;
+      z-index: -1;
+      object-fit: contain;
+    }
+  }
+
+  .apply__instructor {
+    > .title {
+      @include smallTitle;
+      margin-bottom: 30px;
+      color: var(--text-sec);
+    }
+  }
+}
+
+.apply__instructor-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  .select__field {
+    border-radius: 5px;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    padding: 16px 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .apply__instructor-main {
+    grid-template-columns: 1fr;
+
+    .apply__image {
+      display: none;
+    }
+  }
+}

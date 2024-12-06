@@ -1,0 +1,154 @@
+@import "../../main.scss";
+
+.admin__chatbox {
+  position: relative;
+  overflow-x: hidden;
+  // height: calc(100vh - 10px);
+  .chatbox__header {
+    height: 70px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--theme-color);
+
+    .chatbox__header-user {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      img {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+      }
+      .title {
+        @include bigDescription;
+        color: white;
+      }
+    }
+  }
+
+  .message__with-attachment {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: white;
+
+    a {
+      color: black;
+      text-decoration: underline;
+    }
+  }
+  .chatbox__main {
+    padding: 10px;
+    height: calc(100vh - 70px);
+    overflow: scroll;
+    padding-bottom: 50px;
+    .chat-sent {
+      margin-bottom: 10px;
+
+      p {
+        background-color: rgba(138, 138, 138, 0.253);
+        padding: 10px 15px;
+        border-radius: 5px;
+        width: fit-content;
+        max-width: 70%;
+        text-align: left;
+      }
+    }
+    .chat-rec {
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: flex-end;
+      p {
+        background-color: var(--theme-color);
+        padding: 10px 15px;
+        border-radius: 5px;
+        width: fit-content;
+        max-width: 70%;
+      }
+    }
+  }
+}
+
+.chat__send-opts {
+  height: 50px;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  background-color: white;
+  .chat__inputs {
+    display: flex;
+    padding: 5px 10px;
+    align-items: center;
+    gap: 10px;
+    .fileupload {
+      display: none;
+    }
+    .message {
+      width: 100%;
+      flex: 1;
+      flex-grow: 1;
+      height: 40px;
+      outline: none;
+      padding: 0 5px;
+    }
+    .sendIcon {
+      cursor: pointer;
+      color: var(--theme-color);
+    }
+    .upload {
+      cursor: pointer;
+      svg {
+        color: var(--theme-color);
+      }
+    }
+  }
+}
+
+.no__convo__selected {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .title {
+    @include smallTitle;
+  }
+}
+
+.uploading__spinner-main {
+  // background-color: rebeccapurple;
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  .loader {
+    height: 20px;
+    width: 20px;
+  }
+
+  .title {
+    @include descriptionFont;
+  }
+}
+
+.selected__file-name {
+  padding: 5px 10px;
+  border: 1px solid rgba(128, 128, 128, 0.452);
+  margin-bottom: 10px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: fit-content;
+  border-radius: 20px;
+
+  svg {
+    cursor: pointer;
+  }
+}

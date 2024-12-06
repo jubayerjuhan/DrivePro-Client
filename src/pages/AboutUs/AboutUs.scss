@@ -1,0 +1,14 @@
+@import "../../main.scss";
+
+.about__us-main {
+  > .title {
+    @include smallTitle;
+    text-align: center;
+    color: var(--text-sec);
+    margin-bottom: 25px;
+  }
+  > .description {
+    padding: 0px 5%;
+    @include descriptionFont;
+  }
+}

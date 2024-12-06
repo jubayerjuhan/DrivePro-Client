@@ -1,0 +1,19 @@
+@import "../../main.scss";
+
+.write__review-main {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  .title {
+    @include descriptionFont;
+  }
+  .subtitle {
+    @include descriptionFont;
+  }
+
+  textarea {
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0px;
+  }
+}

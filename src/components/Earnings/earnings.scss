@@ -1,0 +1,27 @@
+.earnings__page {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.earnings__title {
+  font-weight: 600;
+  font-size: clamp(20px, 5vw, 30px);
+  margin-bottom: 20px;
+}
+
+.earnings__description {
+  width: 80%;
+  line-height: 1.6;
+}
+
+.earnings__summary-table {
+  margin-top: 30px;
+  width: 100%;
+  overflow: scroll;
+}
+
+@media (max-width: 768px) {
+  .earnings__description {
+    width: 100%;
+  }
+}

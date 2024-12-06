@@ -1,0 +1,52 @@
+@mixin titleFont {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--text);
+
+  @media (max-width: 768px) {
+    font-size: 30px;
+  }
+}
+
+@mixin descriptionFont {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text-sec);
+  @media (max-width: 768px) {
+    font-size: 14px;
+  }
+}
+
+@mixin bigDescription {
+  font-size: 20px;
+  line-height: 1.7;
+  color: var(--text-sec);
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+}
+
+@mixin smallTitle {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: var(--text);
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+}
+
+// input desgign
+
+.input__wrapper_w-header {
+  > .title {
+    @include descriptionFont();
+    margin-bottom: 10px;
+
+    span {
+      color: red;
+    }
+  }
+}

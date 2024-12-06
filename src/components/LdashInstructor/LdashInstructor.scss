@@ -1,0 +1,115 @@
+@import "../../main.scss";
+
+.instructor__ldash {
+  .title {
+    @include smallTitle;
+    margin-bottom: 10px;
+    color: var(--text-sec);
+  }
+}
+.dashboard__instructor-info {
+  background-color: white;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .instructor {
+    display: flex;
+    gap: 15px;
+
+    .image {
+      box-shadow: rgba(14, 8, 0, 0.623) 0px 2px 8px 0px;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: #eeeeee;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        border-radius: 50%;
+        width: 90%;
+        height: 90%;
+      }
+    }
+
+    .information {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+      .name {
+        @include bigDescription;
+      }
+    }
+  }
+}
+
+// car
+
+.car__information-model {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  .image {
+    height: 100px;
+    width: 130px;
+    img {
+      border-radius: 10px;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .car__info {
+    .car__name {
+      @include bigDescription;
+    }
+    .car__number {
+      border-radius: 15px;
+      @include descriptionFont;
+      margin-top: 6px;
+      font-size: 12px;
+      padding: 5px 10px;
+      background-color: var(--theme-color);
+      width: fit-content;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .dashboard__instructor-info {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .car__information-model {
+    display: none;
+  }
+  .dashboard__instructor-info .instructor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .dashboard__instructor-info .instructor .information {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .dashboard__instructor-info .instructor .image {
+    height: 80px;
+    width: 80px;
+  }
+
+  .ldash__counters {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .dashboard__instructor-info .instructor .information .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

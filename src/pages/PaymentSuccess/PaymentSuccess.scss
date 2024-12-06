@@ -1,0 +1,43 @@
+@import "../../main.scss";
+
+.payment__success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .check__icon {
+    svg {
+      font-size: 100px;
+      color: var(--theme-color);
+    }
+  }
+}
+
+.payment__success-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+
+  .title {
+    @include smallTitle;
+    color: var(--text-sec);
+    text-align: center;
+  }
+
+  .description {
+    @include descriptionFont;
+    text-align: center;
+    span {
+      font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .payment__success {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
